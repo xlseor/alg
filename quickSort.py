@@ -11,7 +11,7 @@ def quickSort(arr):
         while arr[r]>=arr[pivdex] and r>0:
             if r>0:
                 r-=1
-        while arr[l]<arr[pivdex]:
+        while arr[l]<=arr[pivdex] and l<pivdex:
             l+=1
         if l<r:
             swap=arr[l]
