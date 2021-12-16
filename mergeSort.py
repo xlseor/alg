@@ -5,7 +5,7 @@
 
 def mergeSort(arr):
     #base case:
-    if len(arr)==1 or len(arr)==0:
+    if len(arr)<=1:
         return arr
     #divide at midpoint:
     mid=len(arr)//2
